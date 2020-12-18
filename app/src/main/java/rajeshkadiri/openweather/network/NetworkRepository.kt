@@ -12,7 +12,7 @@ class NetworkRepository {
     private val baseUrl = "https://api.openweathermap.org"
    // var penWeatherDataActivity = OpenWeatherDataActivity()
     val id = "745044"
-    val appId = "8a8edeb83e8f1382d6cd7ec567c2337a"
+    val appId = "8a8edeb83e8f1382d6cd7567c2337a"
     private val client = OkHttpClient().newBuilder()
             .cache(null)
             .addInterceptor(HttpLoggingInterceptor().apply {
